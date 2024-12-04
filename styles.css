@@ -202,3 +202,25 @@ footer {
     text-align: center;
     font-size: 9px;
 }
+
+.fa-youtube-play:hover {
+    color: gray;
+}
+
+.fa-facebook-square:hover {
+    color: gray;
+}
+
+.fa-instagram:hover {
+    color: gray;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: gray;
+}
+
