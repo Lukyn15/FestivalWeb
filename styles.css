@@ -1,0 +1,188 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+header {
+    background: url("images/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+/* tečka je třída, element s třídou se může opakovat na webu */
+.intro-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* tento příkaz posune text o 50% své délky */
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 0 50px 0 50px;
+    text-wrap: nowrap; /* při zmenseni text zůstane na jednom řádku */
+}
+
+.intro-container h1 {
+    font-size: 64px;
+}
+
+.intro-container p {
+    font-size: 28px;
+}
+.about-festival, .about-singers {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.about-festival p {
+    font-size: 24px;
+    margin: 0;
+    padding: 32px;
+}
+
+/* hashtag je id, které je vždy pouze jednou na webu*/
+#first-container
+{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    margin: 200px auto 100px auto;
+    padding: 24px;
+    border-radius: 20px;
+    position: relative;
+}
+/* absolutní pozice je vždy vůči nadřazenému elementu, který musí mít pozici relativní */
+/* element s absolutní pozicí ignoruje tok dokumentu, to znamená že může překrývat ostatní elementy */
+/* element s relativní pozicí je zahrnut do dokumentu */
+/* pokud element s absolutní pozicí nemá nadřazený relativní element, tak se připne vůči body */
+
+#first-container img
+{
+    border-radius: 14px;
+    position:absolute;
+    right: 100%;
+    top: -25%;
+    width: 250px;
+    height: 250px;  
+}
+
+#second-container
+{
+    background-color:rgb(255, 255, 255);
+    width: 700px;
+    margin: 100px auto;
+    padding: 24px;
+    border-radius: 20px;
+    text-align: right;
+}
+
+#second-container img
+{
+    border-radius: 20px;
+    position:absolute;
+    left: 70%;
+    top: 185%;
+    height: 250px;
+    width: 250px;
+}
+
+.testimonials {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 32px 16px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.testimonial-card h3 {
+    font-size: 30px;
+}
+
+.testimonial-card h4 {
+    font-size: 20px;
+    color : rgb(160, 160, 160);
+    margin-bottom: 0;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 88px;
+    height: 88px;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    padding: 16px 0;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: black;
+
+}
+
+.fa-facebook-square {
+    color: dodgerblue;
+}
+
+.fa-instagram {
+    color: deeppink;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.contact-container {
+    text-align: center;
+    font-size: 24px;
+}
