@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body
@@ -25,6 +26,7 @@ header {
     border-radius: 16px;
     padding: 0 50px 0 50px;
     text-wrap: nowrap; /* při zmenseni text zůstane na jednom řádku */
+
 }
 
 .intro-container h1 {
@@ -155,7 +157,7 @@ header {
 
 .nav-link a:hover {
     text-decoration: none;
-    color: blue;
+    color: gray;
 }
 
 .social-icons {
@@ -224,3 +226,64 @@ footer {
     color: gray;
 }
 
+#kontakt {
+    text-align: center;
+    font-size: 48px;
+}
+
+#contact-form {
+    width: 25%;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+label {
+    font-size: 20px;
+
+}
+
+input[type="button"]:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.tickets {
+    display: flex;
+    background-color: gray;
+    border-radius: 16px;
+    width: 343px;
+    height: 500px;
+    position: absolute;
+    top: 27%;
+    left: 19%;
+}
