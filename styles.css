@@ -575,6 +575,8 @@ input[type="button"]:hover {
     .testimonial-card {
         width: 90%;
     }
-
+    #contact-form {
+        width: 90%;
+    }
 }
 
