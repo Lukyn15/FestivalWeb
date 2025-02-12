@@ -48,11 +48,16 @@ header {
     padding: 32px;
 }
 
+.singers-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /* hashtag je id, které je vždy pouze jednou na webu*/
 #first-container
 {
     background-color: rgb(255, 255, 255);
-    width: 700px;
+    width: 50%;
     margin: 200px auto 100px auto;
     padding: 24px;
     border-radius: 20px;
@@ -86,7 +91,23 @@ header {
     border-radius: 20px;
     position: absolute;
     left: 76%;
-    top: 215%;
+    top: 223%;
+}
+
+#third-container {
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    margin: 100px auto;
+    padding: 24px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#third-container img {
+    border-radius: 14px;
+    position: absolute;
+    bottom: -197%;
+    left: 7%
 }
 
 .testimonials {
@@ -556,8 +577,8 @@ input[type="button"]:hover {
         border-radius: 20px;
         position: absolute;
         left: 62%;
-        top: 308%;
-        width: 129px;
+        top: 417%;
+        width: 25%;
     }
 
     #first-container img {
@@ -565,7 +586,7 @@ input[type="button"]:hover {
         position: absolute;
         right: -26%;
         top: -16%;
-        width: 150px;
+        width: 55%;
     }
 
     .testimonial-cards {
@@ -577,6 +598,17 @@ input[type="button"]:hover {
     }
     #contact-form {
         width: 90%;
+    }
+
+    .singers-container {
+        gap: 30px;
+    }
+
+    #third-container img {
+        width: 25%;
+        position: absolute;
+        top: 504%;
+        left: 62%
     }
 }
 
